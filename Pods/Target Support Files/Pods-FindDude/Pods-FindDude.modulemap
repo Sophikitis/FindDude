@@ -1,0 +1,6 @@
+framework module Pods_FindDude {
+  umbrella header "Pods-FindDude-umbrella.h"
+
+  export *
+  module * { export * }
+}

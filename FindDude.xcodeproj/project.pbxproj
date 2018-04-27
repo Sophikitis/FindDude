@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43FDCA19D60018C0234C3876 /* Pods_FindDudeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A977F221B24AFE2B934D7C /* Pods_FindDudeTests.framework */; };
+		B29116B6AE414DB105BEAE0C /* Pods_FindDude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA2FD17417F8D64AC0FF762 /* Pods_FindDude.framework */; };
+		D76D9CC2209244540078B238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D9CC1209244540078B238 /* AppDelegate.swift */; };
+		D76D9CC4209244540078B238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D9CC3209244540078B238 /* ViewController.swift */; };
+		D76D9CC7209244540078B238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76D9CC5209244540078B238 /* Main.storyboard */; };
+		D76D9CC9209244540078B238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76D9CC8209244540078B238 /* Assets.xcassets */; };
+		D76D9CCC209244540078B238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76D9CCA209244540078B238 /* LaunchScreen.storyboard */; };
+		D76D9CD7209244550078B238 /* FindDudeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76D9CD6209244550078B238 /* FindDudeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D76D9CD3209244540078B238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D76D9CB6209244540078B238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76D9CBD209244540078B238;
+			remoteInfo = FindDude;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DA2FD17417F8D64AC0FF762 /* Pods_FindDude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A977F221B24AFE2B934D7C /* Pods_FindDudeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDudeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152DC3D4915F96EAE941644 /* Pods-FindDude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDude.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindDude/Pods-FindDude.release.xcconfig"; sourceTree = "<group>"; };
+		B2AB11B3CBADFFF55975BA9B /* Pods-FindDudeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDudeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindDudeTests/Pods-FindDudeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B81DD6437EF52F2E7A10D563 /* Pods-FindDude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDude.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindDude/Pods-FindDude.debug.xcconfig"; sourceTree = "<group>"; };
+		D76D9CBE209244540078B238 /* FindDude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindDude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76D9CC1209244540078B238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D76D9CC3209244540078B238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D76D9CC6209244540078B238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D76D9CC8209244540078B238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D76D9CCB209244540078B238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D76D9CCD209244540078B238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76D9CD2209244540078B238 /* FindDudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindDudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76D9CD6209244550078B238 /* FindDudeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDudeTests.swift; sourceTree = "<group>"; };
+		D76D9CD8209244550078B238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0C704AAF0F5E3E04C712B3 /* Pods-FindDudeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDudeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindDudeTests/Pods-FindDudeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76D9CBB209244540078B238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29116B6AE414DB105BEAE0C /* Pods_FindDude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76D9CCF209244540078B238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FDCA19D60018C0234C3876 /* Pods_FindDudeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B14F3F45BB051150DF8A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B81DD6437EF52F2E7A10D563 /* Pods-FindDude.debug.xcconfig */,
+				8152DC3D4915F96EAE941644 /* Pods-FindDude.release.xcconfig */,
+				EF0C704AAF0F5E3E04C712B3 /* Pods-FindDudeTests.debug.xcconfig */,
+				B2AB11B3CBADFFF55975BA9B /* Pods-FindDudeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D421E7AA8EB45A108818FF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2FD17417F8D64AC0FF762 /* Pods_FindDude.framework */,
+				68A977F221B24AFE2B934D7C /* Pods_FindDudeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D76D9CB5209244540078B238 = {
+			isa = PBXGroup;
+			children = (
+				D76D9CC0209244540078B238 /* FindDude */,
+				D76D9CD5209244540078B238 /* FindDudeTests */,
+				D76D9CBF209244540078B238 /* Products */,
+				80B14F3F45BB051150DF8A18 /* Pods */,
+				D421E7AA8EB45A108818FF46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D76D9CBF209244540078B238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76D9CBE209244540078B238 /* FindDude.app */,
+				D76D9CD2209244540078B238 /* FindDudeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76D9CC0209244540078B238 /* FindDude */ = {
+			isa = PBXGroup;
+			children = (
+				D76D9CC1209244540078B238 /* AppDelegate.swift */,
+				D76D9CC3209244540078B238 /* ViewController.swift */,
+				D76D9CC5209244540078B238 /* Main.storyboard */,
+				D76D9CC8209244540078B238 /* Assets.xcassets */,
+				D76D9CCA209244540078B238 /* LaunchScreen.storyboard */,
+				D76D9CCD209244540078B238 /* Info.plist */,
+			);
+			path = FindDude;
+			sourceTree = "<group>";
+		};
+		D76D9CD5209244540078B238 /* FindDudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D76D9CD6209244550078B238 /* FindDudeTests.swift */,
+				D76D9CD8209244550078B238 /* Info.plist */,
+			);
+			path = FindDudeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76D9CBD209244540078B238 /* FindDude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76D9CDB209244550078B238 /* Build configuration list for PBXNativeTarget "FindDude" */;
+			buildPhases = (
+				8FBB8442A0CB8CA322A478D8 /* [CP] Check Pods Manifest.lock */,
+				D76D9CBA209244540078B238 /* Sources */,
+				D76D9CBB209244540078B238 /* Frameworks */,
+				D76D9CBC209244540078B238 /* Resources */,
+				32FC0C4E4A94F202F58D7881 /* [CP] Embed Pods Frameworks */,
+				9604338481F51D4BADBC5292 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindDude;
+			productName = FindDude;
+			productReference = D76D9CBE209244540078B238 /* FindDude.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D76D9CD1209244540078B238 /* FindDudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76D9CDE209244550078B238 /* Build configuration list for PBXNativeTarget "FindDudeTests" */;
+			buildPhases = (
+				7F1C97D2DBEDB6A1563AC563 /* [CP] Check Pods Manifest.lock */,
+				D76D9CCE209244540078B238 /* Sources */,
+				D76D9CCF209244540078B238 /* Frameworks */,
+				D76D9CD0209244540078B238 /* Resources */,
+				57CEAB73E51729B418159450 /* [CP] Embed Pods Frameworks */,
+				1ECD984C7D5837F0143C7D4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D76D9CD4209244540078B238 /* PBXTargetDependency */,
+			);
+			name = FindDudeTests;
+			productName = FindDudeTests;
+			productReference = D76D9CD2209244540078B238 /* FindDudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76D9CB6209244540078B238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D76D9CBD209244540078B238 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D76D9CD1209244540078B238 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D76D9CBD209244540078B238;
+					};
+				};
+			};
+			buildConfigurationList = D76D9CB9209244540078B238 /* Build configuration list for PBXProject "FindDude" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D76D9CB5209244540078B238;
+			productRefGroup = D76D9CBF209244540078B238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D76D9CBD209244540078B238 /* FindDude */,
+				D76D9CD1209244540078B238 /* FindDudeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76D9CBC209244540078B238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76D9CCC209244540078B238 /* LaunchScreen.storyboard in Resources */,
+				D76D9CC9209244540078B238 /* Assets.xcassets in Resources */,
+				D76D9CC7209244540078B238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76D9CD0209244540078B238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECD984C7D5837F0143C7D4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindDudeTests/Pods-FindDudeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FC0C4E4A94F202F58D7881 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindDude/Pods-FindDude-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxGeocoder.swift/MapboxGeocoder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxGeocoder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindDude/Pods-FindDude-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57CEAB73E51729B418159450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindDudeTests/Pods-FindDudeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1C97D2DBEDB6A1563AC563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDudeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBB8442A0CB8CA322A478D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDude-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9604338481F51D4BADBC5292 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindDude/Pods-FindDude-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76D9CBA209244540078B238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76D9CC4209244540078B238 /* ViewController.swift in Sources */,
+				D76D9CC2209244540078B238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76D9CCE209244540078B238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76D9CD7209244550078B238 /* FindDudeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D76D9CD4209244540078B238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76D9CBD209244540078B238 /* FindDude */;
+			targetProxy = D76D9CD3209244540078B238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D76D9CC5209244540078B238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76D9CC6209244540078B238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D76D9CCA209244540078B238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76D9CCB209244540078B238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D76D9CD9209244550078B238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D76D9CDA209244550078B238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D76D9CDC209244550078B238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81DD6437EF52F2E7A10D563 /* Pods-FindDude.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65984Z76UB;
+				INFOPLIST_FILE = FindDude/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sophikitis.FindDude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D76D9CDD209244550078B238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8152DC3D4915F96EAE941644 /* Pods-FindDude.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65984Z76UB;
+				INFOPLIST_FILE = FindDude/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sophikitis.FindDude;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D76D9CDF209244550078B238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0C704AAF0F5E3E04C712B3 /* Pods-FindDudeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65984Z76UB;
+				INFOPLIST_FILE = FindDudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sophikitis.FindDudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDude.app/FindDude";
+			};
+			name = Debug;
+		};
+		D76D9CE0209244550078B238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AB11B3CBADFFF55975BA9B /* Pods-FindDudeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65984Z76UB;
+				INFOPLIST_FILE = FindDudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sophikitis.FindDudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDude.app/FindDude";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76D9CB9209244540078B238 /* Build configuration list for PBXProject "FindDude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76D9CD9209244550078B238 /* Debug */,
+				D76D9CDA209244550078B238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76D9CDB209244550078B238 /* Build configuration list for PBXNativeTarget "FindDude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76D9CDC209244550078B238 /* Debug */,
+				D76D9CDD209244550078B238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76D9CDE209244550078B238 /* Build configuration list for PBXNativeTarget "FindDudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76D9CDF209244550078B238 /* Debug */,
+				D76D9CE0209244550078B238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D76D9CB6209244540078B238 /* Project object */;
+}
